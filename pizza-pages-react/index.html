@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/global.css" rel="stylesheet">
+    <link href="/assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+    <link href="/assets/css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taki's Pizza</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="./src/main.jsx"></script>
+    <script src="/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        /*****Fixed Menu******/
+        var secondaryNav = $('.cd-secondary-nav'),
+                secondaryNavTopPosition = secondaryNav.offset().top;
+        $(window).on('scroll', function(){
+          if($(window).scrollTop() > secondaryNavTopPosition ) {
+            secondaryNav.addClass('is-fixed');
+          } else {
+            secondaryNav.removeClass('is-fixed');
+          }
+        });
+
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('#Carousel').carousel({
+          interval: 5000
+        })
+      });
+    </script>
+  </body>
+</html>
