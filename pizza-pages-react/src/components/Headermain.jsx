@@ -38,27 +38,27 @@ function Headermain() {
                                 className="collapse navbar-collapse"
                                 id="dropdown-thumbnail-preview"
                             >
-                                <ul className="nav navbar-nav">
+                                <ul className="nav navbar-nav" >
                                     <li className="active">
-                                        <a href="index.html" className="hvr-underline-from-center">
+                                        <Link to="/"  className="hvr-underline-from-center">
                                             HOME
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="about.html" className="hvr-underline-from-center">
+                                        <Link to="/about"  className="hvr-underline-from-center">
                                             ABOUT
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="gallery.html" className="hvr-underline-from-center">
+                                        <Link to="/gallery" className="hvr-underline-from-center">
                                             GALLERY
-                                        </a>
+                                        </Link>
                                     </li>
 
                                     <li>
-                                        <a href="contact.html" className="hvr-underline-from-center">
+                                        <Link to="/contact" className="hvr-underline-from-center">
                                             CONTACT
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
