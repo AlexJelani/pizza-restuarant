@@ -1,10 +1,17 @@
-import React from 'react'
-import {Link, NavLink} from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Headermain() {
+    const headerStyle = {
+        position: 'sticky',
+        top: 0,
+        backgroundColor: 'green', // Add your desired background color
+        zIndex: 1000, // Adjust the z-index as needed
+    };
+
     return (
         <>
-            <section id="header" className="cd-secondary-nav">
+            <section id="header" className="cd-secondary-nav" style={headerStyle}>
                 <div className="container">
                     <div className="row">
                         <nav className="navbar navbar-default">
@@ -21,9 +28,9 @@ function Headermain() {
                                     <span className="icon-bar" />
                                     <span className="icon-bar" />
                                 </button>
-                                <Link to='/' className="navbar-brand" >
+                                <Link to="/" className="navbar-brand">
                                     <img src="/assets/img/takipizzaslogo%20(1).jpg" alt="logo" />
-                                    <span className="logo-txt">Taki's Pizza</span>
+                                    <span className="logo-txt"  style={{ color: 'white' }}>Taki's Pizza</span>
                                 </Link>
                             </div>
                             {/* Collect the nav links, forms, and other content for toggling */}
@@ -60,8 +67,8 @@ function Headermain() {
                     </div>
                 </div>
             </section>
-
         </>
-    )
+    );
 }
-export default Headermain
+
+export default Headermain;

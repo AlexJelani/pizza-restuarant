@@ -259,7 +259,7 @@ cursor: pointer;
  margin-top:60px;
 }
 #shop .panel .panel-footer { padding: 8px !important; background-color: #f9f9f9 !important; border-bottom-right-radius: 0 !important; border-bottom-left-radius: 0 !important; }	
-#shop .panel .panel-footer h4 { display: inline; font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495e margin: 0 !important; padding: 0 !important; }
+#shop .panel .panel-footer h4 { display: inline; font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495e; margin: 0 !important; padding: 0 !important; }
 #shop .panel .panel-footer i.glyphicon { display: inline; font-size: 1.125em; cursor: pointer; }
 #shop .panel .panel-footer i.glyphicon-thumbs-up { color: #1abc9c; }
 #shop .panel .panel-footer i.glyphicon-thumbs-down { color: #e74c3c; padding-left: 5px; }
