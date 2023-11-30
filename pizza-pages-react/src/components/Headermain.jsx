@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Headermain() {
     const headerStyle = {
@@ -8,7 +8,10 @@ function Headermain() {
         backgroundColor: 'green', // Add your desired background color
         zIndex: 1000, // Adjust the z-index as needed
     };
-
+    const linkStyle = {
+        color: 'white', // Set the color to white
+        // Add any additional styling if needed
+    };
     return (
         <>
             <section id="header" className="cd-secondary-nav" style={headerStyle}>
@@ -30,7 +33,7 @@ function Headermain() {
                                 </button>
                                 <Link to="/" className="navbar-brand">
                                     <img src="/assets/img/takipizzaslogo%20(1).jpg" alt="logo" />
-                                    <span className="logo-txt"  style={{ color: 'white' }}>Taki's Pizza</span>
+                                    <span className="logo-txt"  style={{ color: 'white' }}>TAKI PIZZA</span>
                                 </Link>
                             </div>
                             {/* Collect the nav links, forms, and other content for toggling */}
@@ -40,23 +43,23 @@ function Headermain() {
                             >
                                 <ul className="nav navbar-nav" >
                                     <li className="active">
-                                        <Link to="/"  className="hvr-underline-from-center">
+                                        <Link to="/"  className="hvr-underline-from-center" >
                                             HOME
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/about"  className="hvr-underline-from-center">
+                                        <NavLink to="/about"  className="hvr-underline-from-center" style={linkStyle}>
                                             ABOUT
-                                        </Link>
+                                        </NavLink>
                                     </li>
                                     <li>
-                                        <Link to="/gallery" className="hvr-underline-from-center">
+                                        <Link to="/gallery" className="hvr-underline-from-center" style={linkStyle}>
                                             GALLERY
                                         </Link>
                                     </li>
 
                                     <li>
-                                        <Link to="/contact" className="hvr-underline-from-center">
+                                        <Link to="/contact" className="hvr-underline-from-center" style={linkStyle}>
                                             CONTACT
                                         </Link>
                                     </li>

@@ -58,13 +58,14 @@ function Centersection() {
                                 {/* Wrapper for slides */}
                                 <div className="carousel-inner">
                                     <div className="item">
-                                        <img src="/assets/img/2.png" alt="abc" />
+                                        <img src="/assets/img/takipizza1-removebg.png" alt="abc" />
+                                        {/*780X570*/}
                                     </div>
                                     <div className="item active">
-                                        <img src="/assets/img/3.png" alt="abc" />
+                                        <img src="/assets/img/takipizza2-removebg.png" alt="abc" />
                                     </div>
                                     <div className="item">
-                                        <img src="/assets/img/4.png" alt="abc" />
+                                        <img src="/assets/img/takipizza3-removebg.png" alt="abc" />
                                     </div>
                                 </div>
                                 {/* Controls */}
