@@ -1,0 +1,167 @@
+/*
+Template Name:Pizza hut
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* login_main ****************/
+#login_main{ 
+ background:#05c46b!important;
+ }
+.about_main_1 img{ 
+ border-radius: 0px 90px 90px 0px;
+ }
+.about_main_2 img{ 
+ border-radius: 90px 0px 0px 90px;
+ }
+.about_main_3{ 
+ text-align:center;
+ }
+.about_main_3 h2{ 
+ color:#fff;
+ font-weight:bold;
+ padding-top:150px;
+ padding-bottom:10px;
+ }
+.about_main_3 p{ 
+ color:#fff;
+ padding-right:10px;
+ padding-left:10px;
+ }
+/********************* login_main_end ****************/
+/********************* login ****************/
+#login{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+#login {
+ padding-top: 50px
+}
+#login .form-wrap {
+width: 40%;
+margin: 0 auto;
+border: 1px solid #e6e4e4;
+padding: 20px 20px 20px 20px;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 18px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 19px;
+	margin-bottom: 20px;
+}
+#login .forget {
+ font-size: 18px;
+ text-align: center;
+ display: block;
+ color: #000;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+#login .form-control {
+ color: #212121;
+ font-size: 18px;
+}
+#login .btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+#login .btn-custom:hover,
+#login .btn-custom:focus {
+    color: #fff;
+}
+/********************* login_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+.about_main_3 h2 {
+ padding-top: 15px;
+}
+#login {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+#login .form-wrap {
+ width: 100%;
+}
+.about_main_1 img {
+ display: none;
+}
+.about_main_2 img {
+ border-radius: 0px 0px 0px 0px;
+}
+}
+@media (min-width:470px) and (max-width:767px) { 
+
+
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_main_3 h2 {
+ padding-top: 10px;
+ padding-bottom: 0px;
+}
+#login .form-wrap {
+ width: 100%;
+}
+} 
+@media (min-width:961px) and (max-width:1200px) {
+.about_main_3 h2 {
+ padding-top: 60px
+}
+#login .form-wrap {
+ width: 100%;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+.about_main_3 h2 {
+ padding-top: 110px;
+}
+}

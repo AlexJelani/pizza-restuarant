@@ -1,0 +1,340 @@
+/*
+Template Name:Pizza hut
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+/********************* gallery_main ****************/
+#gallery_main{ 
+ background: #05c46b;
+ }
+.about_main_1 img{ 
+ border-radius: 0px 90px 90px 0px;
+ }
+.about_main_2 img{ 
+ border-radius: 90px 0px 0px 90px;
+ }
+.about_main_3{ 
+ text-align:center;
+ }
+.about_main_3 h2{ 
+ color:#fff;
+ font-weight:bold;
+ padding-top:150px;
+ padding-bottom:10px;
+ }
+.about_main_3 p{ 
+ color:#fff;
+ padding-right:10px;
+ padding-left:10px;
+ }
+/********************* gallery_main_end ****************/
+/********************* about ****************/
+#about{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+.about_1 h4{ 
+ font-weight:bold;
+ padding-bottom:20px;
+ padding-top: 50px;
+ }
+.about_1 p{ 
+ border-bottom:1px solid #dee2e6;
+ }
+/********************* about_end ****************/
+/********************* our ****************/
+#our{ 
+ padding-top:50px;
+ padding-bottom:50px;
+ }
+.our_1{ 
+ text-align:center;
+ }
+.our_1 h3{
+padding-top:5px;
+padding-bottom:10px;
+font-weight: 800;
+letter-spacing: 1px;
+}
+.our_1 h3 a {
+color: #ff3f34;
+font-weight: 800;
+letter-spacing: 1px;
+}
+.our_2{
+ text-align:center; 
+}
+.our_2 h5{
+ padding-top:40px;
+ padding-bottom:10px;
+ }
+.our_2 h5 a{
+ color:#000;
+ letter-spacing:1px;
+ font-weight:bold;
+ }
+.our_2 h5 a:hover{
+ color: #ff3f34;
+ }
+ #footer ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+	padding-top:3px;
+}
+#our ul.social-network li {
+	display: inline;
+	margin: 0 1px;
+}
+/* footer social icons */
+#our .social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+#our .social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+#our .social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+#our .social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+#our .social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+#our .social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+#our .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+#our .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+#our a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+#our .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+	background-color:#464545;
+}
+#our .social-circle li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+#our .social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#our .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+#our .big-btn{
+padding: 10px 0px 11px 0px;
+width: 215px;
+margin-top:5px;
+}
+#our .big-btn i{
+font-size: 65px;
+margin-right: 0px !important;
+}
+#our .big-btn strong{
+font-size: 25px;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 24px;
+}
+#our .big-btn .btn-text{
+margin-top:6px;
+}
+#our .big-btn small{font-size: 75%;}
+#our .android-btn{
+width: 240px;
+padding: 5px 5px 5px 5px;
+background-color: #000;
+border-color: #000;
+}
+#our .android-btn:hover{
+background-color: #272727;
+}
+#our .android-btn i{
+font-size: 55px;
+}
+#our .android-btn .btn-text{
+margin-top: 0px;
+}
+#our .android-btn strong{
+font-size: 25px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
+#our .windows-btn{
+background-color:#008A00;
+width: 235px;
+padding: 5px 5px 5px 5px;
+border-color: #055805;
+}
+#our .windows-btn:hover{
+background-color: #008A00;
+}
+#our .windows-btn .btn-text{
+text-shadow: none;
+font-size: 26px;
+line-height: 25px;
+}
+/********************* our_end ****************/
+/********************* shop ****************/
+#shop{ 
+   padding-top:50px;
+   padding-bottom:50px;
+   background-color: #d9c9e3a6;
+  }
+ @import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+#shop .mt40 { margin-top: 15px; }
+
+#shop .panel { position: relative; overflow: hidden; display: block; border-radius: 0 !important;  }
+#shop .panel-default { border-color: #ebedef !important; }
+#shop .panel .panel-body { position: relative; padding: 0 !important; overflow: hidden; height: auto; }
+#shop .panel .panel-body a { overflow: hidden; }
+#shop .panel .panel-body a img { display: block; margin: 0; width: 100%; height: auto; 
+    transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+}
+#shop .panel .panel-body a.zoom:hover img { transform: scale(1.3); -ms-transform: scale(1.3); -webkit-transform: scale(1.3); -o-transform: scale(1.3); -moz-transform: scale(1.3); }
+#shop .panel .panel-body a.zoom span.overlay { position: absolute; top: 0; left: 0; visibility: hidden; height: 100%; width: 100%; background-color: #000; opacity: 0; 
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+}     
+#shop .panel .panel-body a.zoom:hover span.overlay { display: block; visibility: visible; opacity: 0.55; -moz-opacity: 0.55; -webkit-opacity: 0.55; filter: alpha(opacity=65); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)"; }  
+#shop .panel .panel-body a.zoom:hover span.overlay i { position: absolute; top: 45%; left: 0%; width: 100%; font-size: 2.25em; color: #fff !important; text-align: center;
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    filter: alpha(opacity=1);    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+.modal-footer {
+margin-top: 15px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+border: 1px solid #e5e5e5;
+background-color: #d04425;
+color: #fff;
+font-size: 20px;
+margin: auto;
+width: 30%;
+cursor: pointer;
+}
+.modal-content {
+ margin-top:60px;
+}
+#shop .panel .panel-footer { padding: 8px !important; background-color: #f9f9f9 !important; border-bottom-right-radius: 0 !important; border-bottom-left-radius: 0 !important; }	
+#shop .panel .panel-footer h4 { display: inline; font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495e margin: 0 !important; padding: 0 !important; }
+#shop .panel .panel-footer i.glyphicon { display: inline; font-size: 1.125em; cursor: pointer; }
+#shop .panel .panel-footer i.glyphicon-thumbs-up { color: #1abc9c; }
+#shop .panel .panel-footer i.glyphicon-thumbs-down { color: #e74c3c; padding-left: 5px; }
+#shop .panel .panel-footer div { width: 15px; display: inline; font: 300 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495e; text-align: center; background-color: transparent !important; border: none !important; }	
+
+#shop .modal-title { font: 400 normal 1.625em "Roboto",Arial,Verdana,sans-serif; }
+#shop .modal-footer { font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; } 
+
+/*!
+ * Lightbox for Bootstrap 3 by @ashleydw
+ * https://github.com/ashleydw/lightbox
+ *
+ * License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
+ */.ekko-lightbox-container{position:relative}.ekko-lightbox-nav-overlay{position:absolute;top:0;left:0;z-index:100;width:100%;height:100%}
+ .ekko-lightbox-nav-overlay a{z-index:100;display:block;width:49%;height:100%;padding-top:45%;font-size:30px;color:#fff;text-shadow:2px 2px 4px #000;opacity:0;filter:dropshadow(color=#000000,offx=2,offy=2);-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}.ekko-lightbox-nav-overlay a:empty{width:49%}.ekko-lightbox a:hover{text-decoration:none;opacity:1}.ekko-lightbox .glyphicon-chevron-left{left:0;float:left;padding-left:15px;text-align:left}.ekko-lightbox 
+ .glyphicon-chevron-right{right:0;float:right;padding-right:15px;text-align:right}.ekko-lightbox .modal-footer{text-align:center;margin-bottom: 20px;}
+
+/********************* shop_end ****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+.about_main_3 h2 {
+ padding-top: 15px;
+}
+#gallery .ekko-lightbox .modal-footer {
+ font-size: 13px;
+}
+.about_main_1 img {
+ display: none;
+}
+.about_main_2 img {
+ border-radius: 0px 0px 0px 0px;
+}
+#shop {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+}
+@media (min-width:470px) and (max-width:767px) { 
+
+
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_main_3 h2 {
+ padding-top: 10px;
+ padding-bottom: 0px;
+}
+#shop {
+ padding-top: 20px;
+ padding-bottom: 10px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.about_main_3 h2 {
+ padding-top: 60px;
+ padding-bottom: 0px;
+}
+#shop {
+ padding-top: 20px;
+ padding-bottom: 10px;
+}
+#shop .container {
+ width: 100%;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+.about_main_3 h2 {
+ padding-top: 110px;
+}
+}
