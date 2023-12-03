@@ -3,15 +3,15 @@ import Contact from "./pages/Contact.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import Home from "./pages/./Home.jsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Headermain from "./components/Headermain.jsx";
-import Headersecond from "./components/Headersecond.jsx";
+import Headermain from "./components/GlobalComponents/Headermain.jsx";
+import Headersecond from "./components/GlobalComponents/Headersecond.jsx";
 
 
 function App() {
 
   return (
       <BrowserRouter>
-          <Headersecond/>
+          {/*<Headersecond/>*/}
           <Headermain/>
           <Routes>
               <Route path='/' element={<Home/>}/>

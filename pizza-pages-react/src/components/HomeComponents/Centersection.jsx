@@ -62,7 +62,7 @@ function Centersection() {
                                         {/*780X570*/}
                                     </div>
                                     <div className="item active">
-                                        <img src="/assets/img/takipizza2-removebg.png" alt="abc" />
+                                        <img src="/assets/img/takipizza2-newpic.png" alt="abc" />
                                     </div>
                                     <div className="item">
                                         <img src="/assets/img/takipizza3-removebg.png" alt="abc" />

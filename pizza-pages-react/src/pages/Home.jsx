@@ -1,15 +1,13 @@
 import React from 'react';
-import Centersection from "../components/Centersection.jsx";
-import Middlesection from "../components/Middlesection.jsx";
-import Menusection from "../components/Menusection.jsx";
+import HomeComponent from "../components/HomeComponents/HomeComponent.jsx";
+
+
 
 
 function Home() {
     return (
         <>
-            <Centersection/>
-            <Middlesection/>
-            <Menusection/>
+            <HomeComponent/>
         </>
 
 

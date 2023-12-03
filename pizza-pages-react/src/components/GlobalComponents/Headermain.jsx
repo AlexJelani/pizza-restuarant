@@ -1,11 +1,12 @@
 import React from 'react';
+import "../GlobalComponents/Headermain.css"
 import { Link, NavLink } from 'react-router-dom';
 
 function Headermain() {
     const headerStyle = {
         position: 'sticky',
         top: 0,
-        backgroundColor: 'green', // Add your desired background color
+        backgroundColor: '#01a069', // Add your desired background color
         zIndex: 1000, // Adjust the z-index as needed
     };
     const linkStyle = {
@@ -33,7 +34,7 @@ function Headermain() {
                                 </button>
                                 <Link to="/" className="navbar-brand">
                                     <img src="/assets/img/takipizzaslogo%20(1).jpg" alt="logo" />
-                                    <span className="logo-txt"  style={{ color: 'white' }}>TAKI PIZZA</span>
+                                    <span className="logo-txt"  style={{ color: 'white', fontSize:'larger' }}>TAKI PIZZA</span>
                                 </Link>
                             </div>
                             {/* Collect the nav links, forms, and other content for toggling */}

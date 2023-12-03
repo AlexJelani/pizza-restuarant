@@ -1,0 +1,15 @@
+/* Headermain.css */
+.home-text {
+    padding-left:50px;
+
+}
+@media (max-width: 767px) {
+    #header .navbar-brand img {
+        width: 80%;
+    }
+
+    .logo-txt {
+        display: none;
+    }
+}
+
